@@ -3,4 +3,5 @@
     <string name="action_settings">About MediScanAI</string>
 	<string name="credits_text_Git"><![CDATA[Visit the <a href="https://github.com/dhippo78/MediScanAI">GitHub Repository</a> for more information.]]></string>
 	<string name="credits_text_TMAI"><![CDATA[<a href="https://teachablemachine.withgoogle.com/train/image">Teachable Machine Machine Learning Tool.]]></string>
+	<string name="credits_text_TFLite"><![CDATA[AI Model created with <a href="https://teachablemachine.withgoogle.com/train/image">TensorFlowLite Open Source Library.]]></string>
 </resources>
