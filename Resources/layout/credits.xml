@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:padding="20dp"
     android:gravity="center_horizontal">
-
     <TextView
         android:text="App Credits"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -13,7 +12,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
         android:textStyle="bold" />
-
     <TextView
         android:text="Developers"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -21,7 +19,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:textStyle="bold" />
-
     <TextView
         android:text="International School Lagos\nSS2 Students"
         android:textAppearance="?android:attr/textAppearanceMedium"
@@ -29,7 +26,6 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:gravity="center"/>
-
     <TextView
         android:text="Submitted For"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -37,15 +33,13 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:textStyle="bold" />
-
     <TextView
-        android:text="Name of competition"
+        android:text="TINE Africa AI and Technology Contest"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:gravity="center" />
-
     <TextView
         android:text="Special Thanks"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -53,10 +47,38 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:textStyle="bold" />
-
     <TextView
-        android:text="Open Source Libraries\nOlamide Ayeni\nOrowo Addah"
+        android:text="Open Source Libraries\nOlamide Ayeni (SS2)\nFetuga Ameerah (SS2)\nUbah David (SS2)\nNwaogwugwu Jaachim (SS2)\nAddah Orowo (SS2)\nMartins Iyanu (SS2)\nMgbemere Casmir (SS2)\nBabatunde Anuoluwapo (SS2)\nAkinyanju Taiwo (SS2)\nAdewumi David (SS2)\nMr. Olalekan (Coordinator)"
         android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+    <TextView
+        android:text="Open Source Code:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/credits_text_Git_TextView"
+        android:text="@string/credits_text_Git"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center" />
+    <TextView
+        android:text="AI Trained with:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/credits_text_TMAI_TextView"
+        android:text="@string/credits_text_TMAI"
+        android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center" />
