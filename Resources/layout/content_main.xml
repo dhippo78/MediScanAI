@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/mediscanai_background_image"
+        android:scaleType="fitCenter"
+        android:contentDescription="@string/appbar_scrolling_view_behavior" />
+
+    <View
+        android:id="@+id/laserLine"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#87CEEB"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/scanButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/productSpinner"
+        android:layout_marginTop="0dp"
+        android:text="SCAN"
+        android:backgroundTint="#87CEEB"
+        android:visibility="invisible"
+        android:textColor="@android:color/white" />
+    
+    <TextView
+        android:id="@+id/headingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pick a product from the list below"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:visibility="invisible"/>
+    <Spinner
+        android:id="@+id/productSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:layout_below="@id/headingText"
+        android:backgroundTint="@color/skyblue"
+        android:layout_marginBottom="20dp" />
+    <TextView
+        android:id="@+id/resultText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_below="@id/productSpinner"
+        android:layout_marginBottom="10dp" />
+    <TextView
+        android:id="@+id/schoolText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tested by International School Lagos"
+        android:textSize="15sp"
+        android:textStyle="normal"
+        android:gravity="center"
+        android:layout_below="@id/resultText"
+        android:visibility="invisible" />
+    
+</RelativeLayout>
