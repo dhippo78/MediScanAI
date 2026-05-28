@@ -4,4 +4,6 @@
 	<string name="credits_text_Git"><![CDATA[Visit the <a href="https://github.com/dhippo78/MediScanAI">GitHub Repository</a> for more information.]]></string>
 	<string name="credits_text_TMAI"><![CDATA[<a href="https://teachablemachine.withgoogle.com/train/image">Teachable Machine Machine Learning Tool.]]></string>
 	<string name="credits_text_TFLite"><![CDATA[AI Model created with <a href="https://teachablemachine.withgoogle.com/train/image">TensorFlowLite Open Source Library.]]></string>
+	<string name="credits_text_Azure"><![CDATA[Datasets labelled with <a href="https://ml.azure.com/">Azure AI Machine Learning Studio.]]></string>
+	<string name="credits_text_Colab"><![CDATA[AI YOLO Model created and trained using ultralytics python library in <a href="https://colab.research.google.com/">Google Colab.]]></string>
 </resources>

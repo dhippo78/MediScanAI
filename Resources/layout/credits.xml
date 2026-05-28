@@ -13,33 +13,19 @@
         android:layout_marginBottom="20dp"
         android:textStyle="bold" />
     <TextView
-        android:text="Developers"
+        android:text="Developer"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:textStyle="bold" />
     <TextView
-        android:text="International School Lagos\nSS2 Students"
+        android:text="Deji Ayeni"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="5dp"
         android:gravity="center"/>
-    <TextView
-        android:text="Submitted For"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:textStyle="bold" />
-    <TextView
-        android:text="TINE Africa AI and Technology Contest"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="5dp"
-        android:gravity="center" />
     <TextView
         android:text="Special Thanks"
         android:textAppearance="?android:attr/textAppearanceLarge"
@@ -48,7 +34,7 @@
         android:layout_marginBottom="5dp"
         android:textStyle="bold" />
     <TextView
-        android:text="Open Source Libraries\nOlamide Ayeni (SS2)\nFetuga Ameerah (SS2)\nUbah David (SS2)\nNwaogwugwu Jaachim (SS2)\nAddah Orowo (SS2)\nMartins Iyanu (SS2)\nMgbemere Casmir (SS2)\nBabatunde Anuoluwapo (SS2)\nAkinyanju Taiwo (SS2)\nAdewumi David (SS2)\nMr. Olalekan (Coordinator)"
+        android:text="Open Source Libraries\nOlamide Ayeni (Concept)"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -86,6 +72,20 @@
     <TextView
         android:id="@+id/credits_text_TFLite_TextView"
         android:text="@string/credits_text_TFLite"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/credits_text_Azure_TextView"
+        android:text="@string/credits_text_Azure"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/credits_text_Colab_TextView"
+        android:text="@string/credits_text_Colab"
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

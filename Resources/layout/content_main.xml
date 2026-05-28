@@ -67,7 +67,7 @@
         android:id="@+id/schoolText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Tested by International School Lagos"
+        android:text="Tested by MediScanAI"
         android:textSize="15sp"
         android:textStyle="normal"
         android:gravity="center"
