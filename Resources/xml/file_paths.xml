@@ -1,4 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<paths>
+<paths xmlns:android="http://android.com">
 	<external-files-path name="my_images" path="Pictures" />
+	<!-- Keep your existing paths, but ensure this line is present: -->
+	<cache-path name="internal_cache" path="." />
 </paths>

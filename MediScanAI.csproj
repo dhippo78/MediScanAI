@@ -74,6 +74,19 @@
     <AndroidAsset Include="Assets\model_unquant.tflite" />
     <AndroidAsset Include="Assets\model.tflite" />
     <AndroidAsset Include="Assets\model_unquant_TCP.tflite" />
+    <AndroidAsset Include="Assets\model_unquant_MOKOS_20260517.tflite" />
+    <AndroidAsset Include="Assets\model_unquant_NCP_20260517.tflite" />
+    <AndroidAsset Include="Assets\model_unquant_Divamine_20260518.tflite" />
+    <AndroidAsset Include="Assets\model_unquant_Jucopan_20260518.tflite" />
+    <AndroidAsset Include="Assets\model_unquant_Loratadine_20260518.tflite" />
+    <AndroidAsset Include="Assets\model_unquant_MOKOS_20260519_Opset20.onnx" />
+    <AndroidAsset Include="Assets\model_unquant_MOKOS_20260519_Opset19.onnx" />
+    <AndroidAsset Include="Assets\model_unquant_NCP_20260522_Opset19.onnx" />
+    <AndroidAsset Include="Assets\model_unquant_NCP_20260522_Opset19_Scaled.onnx" />
+    <AndroidAsset Include="Assets\model_unquant_MOKOS_20260523_Opset19_Scaled_1.onnx" />
+    <AndroidAsset Include="Assets\model_unquant_MOKOS_20260523_Opset19_Scaled_2.onnx" />
+    <AndroidAsset Include="Assets\model_unquant_NCP_20260524_Opset19_Scaled_1.onnx" />
+    <AndroidAsset Include="Assets\model_unquant_NCP_20260524_Opset19_Scaled_2.onnx" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
@@ -113,6 +126,9 @@
     <AndroidResource Include="Resources\drawable\mediscanai_background_image.png" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="Microsoft.ML.OnnxRuntime">
+      <Version>1.16.3</Version>
+    </PackageReference>
     <PackageReference Include="Xamarin.AndroidX.AppCompat" Version="1.2.0.5" />
     <PackageReference Include="Xamarin.Google.Android.Material" Version="1.0.0.1" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
